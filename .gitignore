@@ -1,0 +1,7 @@
+# Exclude lib files
+bkp
+Details.txt
+
+# Ignore macOS system files
+*.DS_Store
+

@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+@media all{
+  .ng-hero{height:calc(100vh - 79px);}
+}
