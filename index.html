@@ -4,14 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NextLevel</title>
-    <meta name="description" content="NextLevel" />
-    <meta name="keywords" content="NextLevel" />
+    <title>Next Level</title>
+    <meta name="description" content="Next Level" />
+    <meta name="keywords" content="Next Level" />
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
     <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/vendor/slick.css" rel="stylesheet">
     <link href="assets/css/header-footer.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/home.css" rel="stylesheet">
@@ -23,28 +22,31 @@
     <nav class="navbar navbar-expand-lg navbar-light py-3 p-lg-0" aria-label="Offcanvas navbar large">
         <div class="container">
             <div class="navbar-brand position-absolute">
-                <a class="position-relative z-1" href="index.html"><img src="assets/images/nextlevel-logo.svg" alt="NextLevel logo" width="100" height="50"></a>
+                <a class="position-relative z-1" href="index.html"><img src="assets/images/nextlevel-logo.svg" alt="Next Level logo" width="100" height="50"></a>
             </div>            
-            <button class="navbar-toggler border-0 p-0 rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0 p-0 rounded-0 ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span> </button>
 
             <div class="offcanvas offcanvas-start bg-black" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbar2Label">
-                        <a class="navbar-brand p-0" href="index.html"><img src="assets/images/nextlevel-logo.svg" alt="NextLevel logo" width="100" height="50"></a>
+                        <a class="p-0" href="index.html"><img src="assets/images/nextlevel-footer-logo.svg" alt="Next Level logo" width="100" height="50"></a>
                     </h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end align-items-md-center ms-auto position-relative">
-                        <li class="nav-item"><a href="#">Services</a></li>
-                        <li class="nav-item"><a href="#">Partners</a></li>
-                        <li class="nav-item"><a href="#">How We Work</a></li>
-                        <li class="nav-item"><a href="#">About</a></li>
-                        <li class="nav-item"><a href="#">Contact</a></li>
+                    <ul class="navbar-nav justify-content-end align-items-md-center position-relative ms-auto">
+                        <li class="nav-item"><a href="#services" class="fw-600">Services</a></li>
+                        <li class="nav-item"><a href="#why-us"  class="fw-600">Why Us</a></li>
+                        <li class="nav-item"><a href="#how-we-work"  class="fw-600 no-line">How We Work</a></li>
+                        <li class="nav-item"><a href="#get-started" class="get-btn fw-600 d-md-none">Contact Us</a></li>
                     </ul>
+                    <div class=" d-none d-md-inline-block">
+                        <div><a href="#get-started" class="get-btn fw-600">Contact Us</a></div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </nav>
@@ -52,8 +54,7 @@
 
 <div class="ng-hero position-relative">
     <figure class="h-100 img-overlay">
-        <img src="assets/images/home/home-hero.webp" alt="NextLevel" width="1920" height="500"
-            class="w-100 h-100 object-fit-cover">
+        <img src="assets/images/home/home-hero.jpg" alt="Next Level" width="1920" height="500" class="w-100 h-100 object-fit-cover">
     </figure>
     <div class="position-absolute top-0 s-0 w-100 h-100">
         <div class="container h-100">
@@ -64,13 +65,249 @@
     </div>
 </div>
 
-    <!-- Vendor js -->
-    <script src="assets/js/vendor/jquery.min.js"></script>
-<!--     <script src="assets/js/nextgen-header.js"></script>
-    <script src="assets/js/nextgen-footer.js"></script> -->
+<section class="what-we-help" id="services">
+    <div class="container">
+        <div class="group-heaidng d-flex flex-column text-center">
+            <h2>Platform Power, Delivered Collaboratively</h2>
+            <p>With speed, precision, and proven expertise, Next Level and our trusted partners ensure your Resulticks-led customer experiences launch and scale successfully to drive growth.</p>
+        </div>
 
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/vendor/slick.min.js"></script>
+        <div class="wh-grid d-flex flex-wrap justify-content-center">
+            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start bg-white">
+                <figure class="d-inline-block"><img src="assets/images/home/cross-channel.svg" alt="Cross-Channel Activation" width="30" height="30" loading="lazy"></figure>
+                <h3 class="fw-600">Cross-Channel Activation</h3>
+                <p>Launch tailored experiences via email, SMS, paid ads, and more—all aligned to your customer lifecycle.</p>
+            </div>
+
+            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start bg-white">
+                <figure class="d-inline-block"><img src="assets/images/home/creative.svg" alt="Creative & Content Strategy" width="30" height="30" loading="lazy"></figure>
+                <h3 class="fw-600">Creative & Content Strategy</h3>
+                <p>Get multilingual content, campaign themes, and CX design support tailored to your brand.</p>
+            </div>
+
+            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start bg-white">
+                <figure class="d-inline-block"><img src="assets/images/home/paid-media.svg" alt="Paid Media Management" width="30" height="30" loading="lazy"></figure>
+                <h3 class="fw-600">Paid Media Management</h3>
+                <p>Drive awareness and leads with expert digital planning, execution, and optimization.</p>
+            </div>
+
+            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start bg-white">
+                <figure class="d-inline-block"><img src="assets/images/home/platform.svg" alt="Platform Implementation" width="30" height="30" loading="lazy"></figure>
+                <h3 class="fw-600">Platform Implementation</h3>
+                <p>Deploy Resulticks confidently with guidance from our team or integration partners.</p>
+            </div>
+
+            <div class="d-flex flex-column align-items-center align-items-md-start text-center text-md-start bg-white">
+                <figure class="d-inline-block"><img src="assets/images/home/tech-stack.svg" alt="Tech Stack Integration" width="30" height="30" loading="lazy"></figure>
+                <h3 class="fw-600">Tech Stack Integration</h3>
+                <p>Connect CRM, CMS, analytics, and cloud systems into a scalable, data-driven foundation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="building-connection text-center">
+            <div class="group-heaidng d-flex flex-column text-center text-white">
+                <h2 class="text-white">Building Connections That Matter</h2>
+                <p>Every successful customer experience starts with genuine human connection. We bring people, platforms, and possibilities together to create experiences that resonate and drive lasting engagement.</p>
+            </div>
+            <div class="build-tech d-flex flex-wrap justify-content-center text-white">
+                <div class="fw-600 d-flex align-items-center"><span class="me-2"><img src="assets/images/home/connected-teams.svg" alt="Connected Teams" width="15" height="15" loading="lazy"></span> Connected Teams</div>
+                <div class="fw-600 d-flex align-items-center"><span class="me-2"><img src="assets/images/home/targeted-results.svg" alt="Targeted Results" width="15" height="15" loading="lazy"></span> Targeted Results</div>
+                <div class="fw-600 d-flex align-items-center"><span class="me-2"><img src="assets/images/home/instant-impact.svg" alt="Instant Impact" width="15" height="15" loading="lazy"></span> Instant Impact</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="why-us">
+    <div class="container">
+        <div class="why-brand d-grid">
+            <div class="wb-left">
+                <h2 class="mb-4">Why Brands Choose Next Level</h2>
+                <ul>
+                    <li>Extensive experience in digital execution, content, and CX strategy</li>
+                    <li>Deep Resulticks expertise across implementation, optimization, and support</li>
+                    <li>Access to a certified partner network that brings agility and local relevance</li>
+                    <li>Flexible service models: fully managed by Next Level, partner-delivered, or a hybrid team</li>
+                </ul>
+            </div>
+
+            <div>&nbsp;</div>
+
+            <div class="wb-right bg-white h-100">
+                <p class="fw-700">A Services Ecosystem Built for Engagement</p>
+                <p>From first-time deployments of a Resulticks-powered experience or an enterprise-scale rollout, Next Level meets you where you are.</p>
+                <p class="fw-600 pt-2">We deliver directly and through partners across:</p>
+                <div class="wb-right-tag d-flex flex-wrap pt-3">
+                    <span class="fw-600">Creative and Content Services</span>
+                    <span class="fw-600">Digital Experience Management</span>
+                    <span class="fw-600">Platform Implementation & Training</span>
+                    <span class="fw-600">Analytics and Data Strategy</span>
+                    <span class="fw-600">Tech Integration & Optimization</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="how-we-work">
+    <div class="container">
+        <div class="group-heaidng text-center">
+            <h2>How We Work</h2>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center hw-grid">
+            <div class="bg-white text-center">
+                <span class="text-center text-white">1</span>
+                <h3 class="fw-600">Assess</h3>
+                <p>We evaluate your current tech stack, content, and audience strategy to align on goals.</p>
+            </div>
+            <div class="bg-white text-center">
+                <span class="text-center text-white">2</span>
+                <h3 class="fw-600">Design</h3>
+                <p>Our experts build tailored journeys, content themes, and delivery models that meet your growth objectives.</p>
+            </div>
+            <div class="bg-white text-center">
+                <span class="text-center text-white">3</span>
+                <h3 class="fw-600">Implement</h3>
+                <p>From platform configuration to integrations, we set you up for success.</p>
+            </div>
+            <div class="bg-white text-center">
+                <span class="text-center text-white">4</span>
+                <h3 class="fw-600">Activate</h3>
+                <p>Launch and scale high-performing customer experiences across channels that align with your brand.</p>
+            </div>
+            <div class="bg-white text-center">
+                <span class="text-center text-white">5</span>
+                <h3 class="fw-600">Optimize</h3>
+                <p>We analyze outcomes and iterate continuously to improve engagement, retention, and ROI through insights.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="get-started">
+    <div class="container">
+        <div class="footer-contact d-grid">
+            <div class="contact-left">
+                <h3>Let’s Get Started</h3>
+                <p>Ready to maximize your Resulticks investment?<br> Explore how Next Level can support your growth.</p>
+            </div>
+            <div class="form-right">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" value="" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" value="" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex form-control">
+                            <select name="country_code" class="border-0" style="max-width:80px;">
+                                <option value="+1">+1</option>
+                                <option value="+7">+7</option>
+                                <option value="+20">+20</option>
+                                <option value="+27">+27</option>
+                                <option value="+30">+30</option>
+                                <option value="+31">+31</option>
+                                <option value="+32">+32</option>
+                                <option value="+33">+33</option>
+                                <option value="+34">+34</option>
+                                <option value="+36">+36</option>
+                                <option value="+39">+39</option>
+                                <option value="+40">+40</option>
+                                <option value="+41">+41</option>
+                                <option value="+43">+43</option>
+                                <option value="+44">+44</option>
+                                <option value="+45">+45</option>
+                                <option value="+46">+46</option>
+                                <option value="+47">+47</option>
+                                <option value="+48">+48</option>
+                                <option value="+49">+49</option>
+                                <option value="+51">+51</option>
+                                <option value="+52">+52</option>
+                                <option value="+53">+53</option>
+                                <option value="+54">+54</option>
+                                <option value="+55">+55</option>
+                                <option value="+56">+56</option>
+                                <option value="+57">+57</option>
+                                <option value="+58">+58</option>
+                                <option value="+60">+60</option>
+                                <option value="+61">+61</option>
+                                <option value="+62">+62</option>
+                                <option value="+63">+63</option>
+                                <option value="+64">+64</option>
+                                <option value="+65">+65</option>
+                                <option value="+66">+66</option>
+                                <option value="+81">+81</option>
+                                <option value="+82">+82</option>
+                                <option value="+84">+84</option>
+                                <option value="+86">+86</option>
+                                <option value="+90">+90</option>
+                                <option value="+91">+91</option>
+                                <option value="+92">+92</option>
+                                <option value="+93">+93</option>
+                                <option value="+94">+94</option>
+                                <option value="+95">+95</option>
+                                <option value="+98">+98</option>
+                                <option value="+212">+212</option>
+                                <option value="+213">+213</option>
+                                <option value="+216">+216</option>
+                            </select>
+                            <input type="text"  value="" class="border-0 ms-1" placeholder="Phone Number">
+                        </div>                        
+                    </div>
+                    <div class="text-end">
+                        <input type="submit" value="Submit" class="btn btn-primary fw-600 border-0">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="NGFooter"></footer>
+
+<!-- Vendor js -->
+<script src="assets/js/vendor/jquery.min.js"></script>
+<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/nextgen-footer.js"></script>
+
+<script>
+$(function () {
+  $('.navbar a[href*="#"]:not([href="#"])').on('click', function (e) {
+    e.preventDefault(); // Prevent default anchor click
+
+    if (
+      location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') &&
+      location.hostname === this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name="' + this.hash.slice(1) + '"]');
+
+      if (target.length) {
+        // ✅ Use native smooth scroll
+        window.scrollTo({
+          top: target.offset().top - 52,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // ✅ Close offcanvas menu if open
+    var offcanvasElement = document.querySelector('.offcanvas.show');
+    if (offcanvasElement) {
+      var bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+      bsOffcanvas.hide();
+    }
+  });
+});
+
+</script>
 
 </body>
 </html>
